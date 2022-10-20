@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: yellow; */
+    box-sizing: border-box;
+   
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 24%;
+    padding: 16px 25px;
+    height: 300px;
+    margin: 27px 9px;
+    height: 835px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+  h1{
+    font-family: 'Roboto', sans-serif
+  }
+
+  .container{
+    width: 273px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 42px 66px;
+    padding: 23px 23px;
+    text-align: center;
+    background-color: rgb(204, 230, 232);
+}
+  
+
+  .box{
+    width: 328px;
+    background-color: rgb(204, 230, 232);
+    margin: 40px 40px;
+    padding: 10px 23px;
+    text-align: center;
+  }
+
+  .box h2{
+    font-size: 30px;
+    margin: -25px -10px;
+    padding: 62px 90px;
+    height: 135px;
+    margin-top: -72px;
+    font-family: 'Roboto', sans-serif
+  }
+
+  .box h1{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin: -3px 32px;
+    padding: 0px 11px;
+  }
+
+  .box p{
+    font-size: 23px;
+    color: blue;
+    font-family: 'Roboto', sans-serif ;
+  }
+
+  .column p{
+    font-size: 23px;
+    justify-content: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif ;
+}
+  
+.know-more h2{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    margin: 34px 5px;
+    padding: 45px;
+    font-family: 'Roboto', sans-serif ;
+    color: blue;
+}
